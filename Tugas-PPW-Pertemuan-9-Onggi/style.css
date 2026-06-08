@@ -1,0 +1,62 @@
+/* ===================== GLOBAL ===================== */
+body {
+    background-color: #f8f9fa; /* Warna dasar abu-abu terang Bootstrap */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===================== HEADER ===================== */
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.navbar-nav .btn {
+    margin-left: 20px;
+}
+
+/* ===================== CARD PRODUK ===================== */
+.card-img-top {
+    height: 150px;
+    object-fit: cover; /* Menjaga proporsi gambar agar tidak gepeng */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* ===================== TOMBOL ===================== */
+.btn-success {
+    border-radius: 20px; /* Membuat sisi tombol beli menjadi lebih oval melengkung */
+}
+
+/* ===================== TABEL KERANJANG ===================== */
+.table th, .table td {
+    vertical-align: middle;
+}
+
+/* ===================== LOGIN ===================== */
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #343a40;
+}
